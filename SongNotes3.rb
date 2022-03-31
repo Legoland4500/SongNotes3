@@ -43,3 +43,15 @@ live_loop :wow do
     sleep 1
   end
 end
+
+
+live_loop :kick do
+  sample :bd_zum
+  sleep 1
+end
+
+live_loop :snare do
+  sleep 1
+  sample :sn_dub, amp: 2
+  sleep 1
+end
